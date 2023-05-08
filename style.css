@@ -1,0 +1,76 @@
+@font-face{
+    font-family: soft;
+    src: url(/fonts/SOFT.ttf);
+}
+
+body{
+    background-color: rgb(215, 204, 204);
+}
+.container{
+    position: absolute;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 35%;
+
+}
+button{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+    width: 250px;
+    margin: 30px;
+    margin-top: 60%;
+    margin-right: 0%;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    color:#11ff00;
+    box-shadow: 10px 10px 10px -1px rgba(0, 0, 0, 0.16), -10px -10px 10px -1px rgba(151, 151, 151, 0.7);
+    font-family: soft;
+    display: flex;
+    justify-content: space-between;
+
+}
+button.dark{
+    color: #000000;
+    background-color: rgb(215, 204, 204);
+    box-shadow: inset 10px 10px 10px -1px  rgba(65, 69, 72, 0.16), inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+}
+button.light{
+    color: #000000;
+    background-color: rgb(215, 204, 204);
+    box-shadow: inset 10px 10px 10px -1px rgba(238, 243, 210, 0.16), inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+}
+button i{
+    margin-left: 15px;
+}
+
+main {
+    width: 100%;
+}
+.title_index{
+    width: 10%;
+    text-decoration:dotted;
+    font-family: soft;
+    border: 2px solid black;
+    border-style: dotted;
+}
+.fazteul_index{
+    font-family: soft;
+    font-size: 15px;
+}
+.lorem_index{
+    font-family: soft;
+    text-decoration:underline;
+    font-size: 25px;
+}
+.icontainer{
+    font-size: 200%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-top: 2%;
+}
